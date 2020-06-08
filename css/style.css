@@ -1,0 +1,267 @@
+html, body {
+    overflow-x: hidden;
+}
+
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+    /* Home */
+    .section-home {
+        text-align: center;
+        background-image: url('../images/background-image.png');
+        background-size: cover;
+        height: 450px;
+    }
+    
+    .home-heading {
+        margin-top: 80px;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    
+    .home-heading, .explain-home {
+        color: whitesmoke;
+        
+    }
+    
+    .section-home, .button-primary {
+        margin-top: 10px;
+    }
+    
+    .home-heading:after {
+        content: "";
+        display: block; 
+        margin: 0 auto; 
+        width: 10%; 
+        padding-top: 20px; 
+        border-bottom: 3px solid white; 
+    }
+    
+    /* Introduction */
+    
+    .section-introduction {
+        margin-top: 25px;
+        height: 480px;
+    }
+    
+    
+    .title, .sub-title {
+        text-align: center;
+    }
+    
+    .title {
+        font-weight: bold;
+    }
+    
+    .row-introduction {
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    .row-introduction h6 {
+        font-size: 17px;
+        padding-top: 7px;
+    
+    }
+    
+    /* Invitation */
+    
+    
+    .section-invitation .one-third column {
+        margin-top: 100px;
+    }
+    
+    .section-invitation img {
+        float: right;
+        max-width: 55%;
+        margin: -40rem auto 0;
+        z-index: 0;
+     }
+    
+    
+    .row2 img {
+        float: left;
+        max-width: 43%;
+        margin: 0 auto;
+    }
+    
+    .row2 .one-third {
+        float: right;
+        margin: -30rem auto 0;
+    }
+    
+    /* Contact us */
+    .contact {
+        margin-top: 10rem;
+    }
+    .contact h4 {
+        text-align: center;
+    }
+    
+    /* Footer */
+    .footer {
+        color: white;
+        background-image: url('../images/background-footer.jpg');
+        background-size: cover;
+        height: 550px;
+        text-align: center;
+    }
+    
+    .footer-title {
+        margin-top: 20rem;
+    }
+    
+    .footer-bottom {
+        margin-top: 130px;
+        color: whitesmoke;
+    }
+
+
+
+
+
+@media (min-width: 768px) {
+    
+    /* Home */
+.section-home {
+    text-align: center;
+    background-image: url('../images/background-image.png');
+    background-size: cover;
+    height: 450px;
+}
+
+.home-heading {
+    margin-top: 80px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.home-heading, .explain-home {
+    color: whitesmoke;
+    
+}
+
+.section-home, .button-primary {
+    margin-top: 10px;
+}
+
+.home-heading:after {
+    content: "";
+    display: block; 
+    margin: 0 auto; 
+    width: 10%; 
+    padding-top: 20px; 
+    border-bottom: 3px solid white; 
+}
+
+/* Introduction */
+
+.section-introduction {
+    margin-top: 25px;
+    height: 480px;
+}
+
+
+.title, .sub-title {
+    text-align: center;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.row-introduction {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.row-introduction h6 {
+    font-size: 17px;
+    padding-top: 7px;
+
+}
+
+/* Invitation */
+
+
+.section-invitation .one-third column {
+    margin-top: 100px;
+}
+
+.section-invitation img {
+    float: right;
+    max-width: 50%;
+    margin: -33rem auto 0;
+    z-index: 0;
+ }
+
+
+.row2 img {
+    float: left;
+    max-width: 43%;
+    margin-top: 0;
+    margin-left: -25rem;
+}
+
+.row2 .one-third {
+    float: right;
+    margin: -30rem auto 0;
+}
+
+/* Contact us */
+.contact {
+    margin-top: 10rem;
+}
+.contact h4 {
+    text-align: center;
+}
+
+/* Footer */
+.footer {
+    color: white;
+    background-image: url('../images/background-footer.jpg');
+    background-size: cover;
+    height: 550px;
+    text-align: center;
+}
+
+.footer-title {
+    margin-top: 20rem;
+}
+
+.footer-bottom {
+    margin-top: 130px;
+    color: whitesmoke;
+}
+
+}
+
+@media (max-width: 425px) {
+
+    .row .two-thirds {
+        margin-top: 40rem;
+        margin-left: -40%;
+        width: 120%;        
+    }
+    
+    .section-invitation h4 {
+        margin-top: 5rem;
+        text-align: center;
+    }
+    
+    .section-invitation p {
+        text-align: center;
+    }
+
+    }
+
+    .row2 h4 {
+        margin-top: -3rem;
+    }
+
+    .row2 .two-thirds{
+        margin-left: 27%;
+    }    
+}
+
