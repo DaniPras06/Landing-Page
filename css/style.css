@@ -11,7 +11,7 @@ html, body {
         text-align: center;
         background-image: url('../images/background-image.png');
         background-size: cover;
-        height: 520px;
+        height: 450px;
     }
     
     .home-heading {
@@ -238,6 +238,10 @@ html, body {
 }
 
 @media (max-width: 425px) {
+
+    .section-home {
+        height: 550px
+    }
 
     .row .two-thirds {
         margin-top: 40rem;
