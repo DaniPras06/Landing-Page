@@ -238,9 +238,8 @@ html, body {
 }
 
 @media (max-width: 425px) {
-
     .section-home {
-        height: 550px
+        height: 550px;
     }
 
     .row .two-thirds {
